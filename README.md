@@ -9,3 +9,11 @@ You can use it to watch your records.
 The other part of this tool is the scanner, this analyze your code and try to find vulnerabilities. 
 ## Vulscan Server
 ## Vulscan Scanner
+
+- [Link](https://vulscan-live-etejaxun.herokuapp.com)
+
+
+## Autor
+- Erick Tejaxun
+- 201213050
+- erickteja@gmail.com

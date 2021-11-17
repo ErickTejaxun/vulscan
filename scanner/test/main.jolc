@@ -1,0 +1,58 @@
+println("--------------Pruebas desarrollo");
+println("--------------Sumas------------------");
+println(2 + 3.3);
+println(2.3 + 8);
+println(1.2 + 5.4);
+println(2+3);
+
+
+println("--------------Restas------------------");
+println(2 - 3.3 );
+println(2.3 - 8 );
+println(1.2 - 5.4 );
+println(2-3 );
+
+
+#JOLC Compiladores 2 USAC 2021
+println("--------------Literales------------------");
+println(10);
+println(10.3);
+println(10.3333333333333333);
+println(nothing);
+println(true);
+println(false);
+println(nothing);
+println('3333433');
+println(-3);
+println(23+6.66+66);
+
+
+#Multiplicacion
+#JOLC Compiladores 2 USAC 2021
+println("--------------Multiplicacion------------------");
+println(-10+333+10);
+println("Hola" * "Mundo");
+
+
+val1 = 1::Int64;
+val2 = 10::Int64;
+val3 = 2021.2020::Float64;
+
+println("Probando declaracion de variables");
+println(val1, " ", val2, " ", val3);
+println("---------------------------------");
+# COMENTARIO DE UNA LINEA
+val1 = val1 + 41 - 123 * 4 / (2 + 2 * 2) - (10 + (125 % 5)) * 2 ^ 2;
+val2 = 11 * (11 % (12 + -10)) + 22 / 2;
+val3 = 2 ^ (2 * 12 / 6) + 25 / 5#= COMENTARIO
+MULTILINEA =#;
+println("Probando asignación de variables y aritmeticas");
+println(val1, " ", val2, " ", val3);
+println("---------------------------------");
+
+rel1 = (((val1 - val2) == 24) && (true && (false || 5 >= 5))) || ((7*7) != (15+555) || -61 > 51);
+rel2 = (7*7) <= (15+555) && 1 < 2;
+rel3 = ((0 == 0) != ((532 > 532)) == ("Hola" == "Hola")) && (false || (false == true));
+println("Probando relacionales y logicas");
+
+
