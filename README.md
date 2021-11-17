@@ -10,7 +10,7 @@ The other part of this tool is the scanner, this analyze your code and try to fi
 ## Vulscan Server
 ## Vulscan Scanner
 
-- [Link](https://vulscan-live-etejaxun.herokuapp.com)
+- [Link](https://vulscan-live.herokuapp.com/)
 
 
 ## Autor
