@@ -4,22 +4,19 @@
 {% block content %}
 <main role="main" class="container">
     <br>
-    <button class="btn btn-primary" onclick="analyze()">Analizar</button>  
-    <button type="button" class="btn btn-secondary">Mirilla</button>
-    <button type="button" class="btn btn-success">Bloque</button> 
-
+    <button class="btn btn-primary" onclick="analyze()">Run Analisis</button>  
     <div class="row-cols-10">
-        <h1 class="display-4">Área de edición</h1>
+        <h1 class="display-4">Editor</h1>
     </div>
     <div class="row row-cols-10">                        
         <div class="mb-3">
             <label for="default" class="form-label"></label>
             <textarea class="codemirror-textarea form-control" name="inpt" id="inpt" cols="30" rows="10">{{initial}}</textarea>
-            <div id="posicion" name="posicion" class="form-text">Posición</div>
+            <div id="posicion" name="posicion" class="form-text">Position</div>
         </div>                             
     </div>   
     <div class="row row-cols-10">        
-        <h1 class="display-4">Consola de salida</h1>
+        <h1 class="display-4">Terminal</h1>
         <textarea class="codemirror-textarea" name="output" id="output" cols="30" rows="10"></textarea>              
     </div>       
 </main>

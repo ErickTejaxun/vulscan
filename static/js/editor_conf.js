@@ -20,5 +20,5 @@ var editorOutput = CodeMirror.fromTextArea(document.getElementById("output"),{
 CodeMirror.on(editorInput, "cursorActivity", (instance, obj)=>{        
     var posicion = document.getElementById("posicion");
     var cursor = instance.doc.getCursor();
-    posicion.innerHTML = "<b>Posición:  Línea:"+cursor.line + "  Columna:"+ cursor.ch +"</b>";
+    posicion.innerHTML = "<b>Position:  Line:"+cursor.line + "  Column:"+ cursor.ch +"</b>";
 });
